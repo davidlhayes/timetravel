@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+body {
+  font-family: $baseFontFamily;
+  font-color: $baseFontColor;
+  font-size: 14px;
+  background-color: $bodyColor;
+}
+header {
+  background-color: $headerColor;
+  h1 {
+    font-size: $logoFontSize;
+    color: $logoFontColor;
+  }
+}
+footer {
+  font-size: $footerFontSize;
+}
