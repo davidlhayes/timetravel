@@ -1,14 +1,21 @@
 // Font Family
 $baseFontFamily: 'Georgia','serif';
+$altFontFamily: 'Verdana'ß,'sans-serif';
 
 //Colors
 
 $baseFontColor: rgb(215, 223, 233);
 $logoFontColor: rgb(244, 254, 69);
-$headerColor: rgb(52, 28, 73);
+$headerColor: rgb(255,255,255);
+$headerFontColor: rgb(170,116,57);
+$navBackgroundColor: rgb(20,20,20);
+$footerColor: rgb(37, 3, 57);
 $bodyColor: rgb(216, 213, 241);
+$pageColor: rgba(240,240,240,.8);
 
 // Sizes
 $bodyFontSize: 16px;
-$logoFontSize: 3rem;
+$pageFontSize: 1.1rem;
+$sloganFontSize: 1.5rem;
 $footerFontSize: .8rem;
+$navFontSize: 1.1rem;

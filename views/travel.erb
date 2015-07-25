@@ -1,0 +1,30 @@
+<section>
+<h3>This is your internet time travel portal!</h3>
+</section>
+<section>
+  <article>
+    <div id="time-input">
+      <h3>Enter desired month, day, year, and time</h3>
+      <input type="datetime-local" value="1776-07-04T16:39:57" />
+      <button>GO!</button>
+    </div>
+    <div id="message">
+
+    </div>
+    <article>
+    <h3 class="last-trip"></h3>
+    </article>
+
+  </article>
+</section>
+<script>
+  $.getJSON('api/last-trip', function(data) {
+
+    $('.last-trip').append('Last trip origin from this device (lat/lon): (' +
+      data.lat + ',' +data.lon + ') Last destination date/time: '
+      + data.date);
+  });
+  $('button').click(function() {
+    $('#message').html('No account found. Please set up payment first!');
+  });
+</script>

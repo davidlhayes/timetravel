@@ -2,30 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/styles/styles.css">
-    <title>Time Travel Incorporated</title>
+    <link rel="stylesheet" href="/styles/styles.css" >
+    <title>Internet Time Machine</title>
+    <script src="/scripts/jquery.js"></script>
   </head>
   <body>
     <div id="wrapper">
       <header>
-        <h1>Time Travel Inc.</h1>
+        <div id="logo"><img src="/images/time_travel_logo.png"></div>
         <nav>
           <ul>
             <li><a href='/'>Home</a></li>
-            <li><a href='/howitworks'>How It Works</a></li>
-            <li><a href='/pricing'>Pricing</a></li>
             <li><a href='/about'>About</a></li>
+            <li><a href='/travel'>Travel Now</a></li>
+            <li><a href='/payment'</li>Set Up Payment</a></li>
             <li><a href='/contact'>Contact Us</a></li>
           </ul>
         </nav>
       </header>
       <main>
-
-        <%= yield %> <!-- erb file goes here -->
-
-      </main>
-      <footer>&copy; 2015 Time Travel, Inc.</footer>
+      <%= yield %>  <!-- insert routes here -->
+    </main>
+      <footer>
+        <h2>&copy; 2214 &pi;, inc. Interstellar Rights Reserved</h2>
+      </footer>
     </div>
-
   </body>
 </html>
